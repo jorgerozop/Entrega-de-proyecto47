@@ -38,11 +38,11 @@ function setup() {
 function draw() {
   background("#BDA297");
   
-  heading.html("Life: "+life)
+  heading.html("Vida: "+life)
   heading.style('color:red'); 
   heading.position(150,20)
 
-  scoreboard.html("Score: "+score)
+  scoreboard.html("Puntuación: "+score)
   scoreboard.style('color:red'); 
   scoreboard.position(width-200,20)
 
